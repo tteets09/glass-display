@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color:  #244264;
+    font-weight: 600;
+    font-size: 2.5rem;
+    opacity: 0.7;
+}
+h2,p {
+    color:  #466992;
+    font-weight: 500;
+    opacity: 0.7;
+}
+h3 {
+    color:  #244264;
+    font-weight: 600;
+    opacity: 0.7;
+}
 main {
     min-height: 100vh;
     background: linear-gradient(to right top, #648ab6, #b08fcf);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 .glass {
     background: white;
@@ -21,6 +38,7 @@ main {
     border-radius: 2rem;
     z-index: 3;
     backdrop-filter: blur(1rem);
+    display: flex;
 }
 .circle1, .circle2, .circle3 {
     background: white;
@@ -51,4 +69,58 @@ main {
     width: 10rem;
     bottom: 1%;
     right: 17%;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.game-icon {
+    border-radius: 1rem;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.6), 
+    rgba(255, 255, 255, 0.2));
+    border-radius: 2rem;
+    padding: 1%;
+}
+
+.link {
+ display: flex;
+ margin: 1rem 0rem;
+ padding: 1rem 3rem;
+ align-items: center;
+}
+.links h2{
+    padding: 0rem 2rem;
+}
+.games {
+    flex: 2;
+}
+
+.pro {
+    position: relative;
+    background: linear-gradient(to right top, #648ab6, #b08fcf);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+
+.pro img {
+    position: absolute;
+    top: -25%;
+    right: 10%;
+}
+
+.pro h2 {
+    width: 40%;
 }
