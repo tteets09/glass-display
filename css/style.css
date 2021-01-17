@@ -16,7 +16,39 @@ main {
     min-height: 80vh;
     width: 60%;
     background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.1));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(1rem);
+}
+.circle1, .circle2, .circle3 {
+    background: white;
+    background: linear-gradient(to right bottom, 
     rgba(255, 255, 255, 0.6), 
     rgba(255, 255, 255, 0.2));
-    border-radius: 2rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1 {
+    height: 15rem;
+    width: 15rem;
+    top: 2%;
+    right: 25%;
+}
+
+.circle2 {
+    height: 20rem;
+    width: 20rem;
+    top: 92%;
+    left: 5%;
+    transform: translateY(-90%);
+}
+
+.circle3 {
+    height: 10rem;
+    width: 10rem;
+    bottom: 1%;
+    right: 17%;
 }
