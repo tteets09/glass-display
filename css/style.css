@@ -22,7 +22,7 @@ h3 {
 }
 main {
     min-height: 100vh;
-    background: linear-gradient(to right top, #648ab6, #b08fcf);
+    background: linear-gradient(to right top, #648ab6, #8fcfaf);
     display: flex;
     justify-content: center;
     align-items: center;
